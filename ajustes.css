@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 9px;
+    background-color: rgb(244, 243, 237);
+}
+
+h1 {
+    background-image: linear-gradient(54deg, rgb(174, 0, 255) 0%, rgb(230, 42, 255) 35%, rgb(219, 76, 255) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.barra-nav {
+    display: grid;
+}
+
+.background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    ;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 210px;
+    height: 201px;
+    border-radius: 90%;
+
+}
+
+.projetos {
+    background: rgba(6, 1, 46, 0.507);
+    height: 35vh;
+    width: 70%;
+    border-radius: 9%;
+    box-shadow: 0 5px 20px rgb(0, 0, 0);
+
+}
+
+.dropdown .btn-violeta {
+    background-color: #8A2BE2 !important;
+    /* violeta */
+    border-color: #8822e7 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.dropdown-menu {
+    background-color: rgb(171, 81, 255);
+    box-shadow: 0 5px 20px rgb(0, 0, 0);
+}
+
+.tecnologias {
+    display: grid;
+    justify-items: center;
+
+    color: white;
+    height: 9px;
+
+}
+
+.tecnologias span {
+    margin: 10px;
+    color: white;
+
+}
+
+.tecnologias img {
+    width: 25px;
+    height: 25px;
+    display: grid;
+
+}
+
+.contatos {
+
+    background-color: #145A82;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.btn-gmail {
+    color: white;
+
+}
+
+
+#contatos button {
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 0.5rem;
+    border: none;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 100px;
+    font-weight: 800;
+    padding: 0.75rem 1rem;
+    font-size: 0.825rem;
+    line-height: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+#contatos .btn-github:hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contatos .btn-instagram:hover {
+    color: rgb(238, 87, 40);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contatos .btn-whatsapp:hover {
+    color: #28b847;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contatos .btn-gmail:hover {
+    color: #ff0000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contatos p{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    padding: 5px;
+}
